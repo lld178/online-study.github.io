@@ -1,0 +1,487 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f3f5f7;
+}
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+.header {
+    height: 42px;
+    /* background-color: darkgrey; */
+    margin: 35px  auto;
+}
+.logo {
+    float: left;
+    width: 198px;
+    height: 42px;
+    background-image: url(image/学成在线.png);
+}
+.nav {
+    float: left;
+    margin-left: 60px;
+    
+}
+.nav li {
+    float: left;
+}
+.nav ul li a {
+    display: block;
+    height: 42px;
+    padding: 0 30px;
+    font-size: 18px;
+    color: #050505;
+    text-decoration: none;
+    line-height: 42px;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.nav ul li a:hover {
+    border-bottom: 2px solid #00a4ff;
+    color: #00a4ff;
+}
+.search {
+    float: left;
+    margin-left: 50px;
+    width: 412px;
+    height: 42px;
+}
+.search input {
+    float: left;
+    width: 360px;
+    height: 40px;
+    border:2px solid #00a4ff;
+    border-right: 0;
+    font-size: 14px;
+    color: #dfe0e2;
+    text-indent: 2em;
+}
+.search button {
+    float: left;
+    width: 50px;
+    height: 42px;
+    border: 0;
+    background-color: #00a4ff;
+
+}
+.user {
+    float: right;
+    margin-right: 30px;
+    /* height: 42px; */
+    font-size: 14px;
+    line-height: 42px;
+    color: #666;
+
+} 
+.retangle {
+    height: 420px;
+    background-color: #1c036c;
+}
+.banner {
+    height: 420px;
+    background-image: url(image/banner2.png);
+}
+.banner ul {
+    float: left;
+    width: 190px;
+    height: 420px;
+    background-color: rgba(0,0,0,0.3);
+}
+.banner a {
+    font-size: 14px;
+    color: #dfe0e2;
+    line-height: 46px;
+}
+.banner a:hover {
+    color: #00a4ff;
+}
+.banner li {
+    padding: 0 20px;
+}
+.banner span {
+    float: right;
+}
+.course {
+    float: right;
+    margin-top: 60px;
+    width: 230px;
+    height: 300px;
+    background-color: #ffffff;
+}
+.banner .my {
+    width: 230px;
+    height: 50px;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 50px;
+    font-family: "Microsotf Yahei";
+    background-color: #9bceea;
+}
+.course .second {
+    border-top: 1px solid #ffffff;
+    height: 69px;
+    background-color: #ffffff;
+}
+.con {
+   margin: 20px 0 0 20px;
+   font-size: 14px;
+}
+.zheng {
+    margin: 0 20px;
+    height: 29px;
+    width: 190px;
+    border-bottom: 1px solid #efefef;
+    font-size: 10px;
+    color: #a5a5a5;
+}
+.third {
+    border-top: 1px solid #ffffff;
+    height: 59px;
+    background-color: #ffffff;
+}
+.co {
+    margin: 15px 0 0 20px;
+    font-size: 14px;
+}
+.zhen {
+    margin: 0 20px;
+    height: 24px;
+    width: 190px;
+    border-bottom: 1px solid #efefef;
+    font-size: 10px;
+    color: #a5a5a5;
+}
+.banner .all  {
+    display: block;
+    margin: 5px 15px 15px 15px;
+    width: 199px;
+    height: 39px;
+    border: 1px solid #00a4ff;
+    color: #00a4ff;
+    font-weight: 700;
+    text-align: center;
+    line-height: 40px
+}
+.jin {
+    overflow: hidden;
+    margin-top: 5px;
+    height: 60px;
+    /* line-height: 60px; */
+    background-color: #ffffff;
+    box-shadow: 0 2px 3px 3px rgba(0,0,0,0.3);
+}
+.jin h4 {
+    float: left;
+    margin: 22px 0;
+    width: 100px;
+    padding-left: 30px;
+    color: #00a4ff;
+    border-right: 1px solid #bfbfbf;
+}
+.jin li {
+    float: left;
+    margin: 22px 0;
+    width: 100px;
+    padding-left: 30px;
+    color: #00a4ff;
+    border-right: 1px solid #bfbfbf;
+}
+.jin li a {
+    color: #050505;
+}
+.jin .xiu {
+    float: right;
+    padding-right: 30px;
+    margin: 22px 0;
+    color: #00a4ff;
+}
+.again {
+    /* float: left; */
+    overflow: hidden;
+}
+.thejin {
+    float: left;
+    margin-top: 35px;
+    font-size: 20px;
+    font-weight: 200;
+}
+.whole {
+    float: right;
+    margin-top: 35px;
+    margin-right: 30px;
+    font-size: 12px;
+    color: #999999;
+}
+.boxone {
+    /* float: left; */
+    margin-top: 20px;
+    height: 555px;
+    overflow: hidden;
+}
+.boxone li {
+    float: left;
+    margin-left: 15px;
+    width: 228px;
+    height: 270px;
+    background-color: #050505;
+    
+}
+.lone,
+.ltwo,
+.lthree,
+.lfour,
+.lfive{
+    margin-bottom: 15px;
+}
+.boxone .lone,
+.boxone .lsix
+{
+    margin-left: 0;
+    background-image: url(image/图层\ 1.png);
+}
+.ltwo,
+.lseven {
+    background-image: url(image/图层\ 136.png);
+}
+.lthree,
+.leight {
+    background-image: url(image/图层\ 137.png);
+}
+.lfour,
+.lnine {
+    background-image: url(image/图层\ 1.png);
+}
+.lfive,
+.lten {
+    background-image: url(image/图层\ 137.png);
+}
+.boxone a {
+    display: block;
+    margin: 180px 20px 0 25px;
+    font-size: 14px;
+    color: #050505;
+}
+.thetop {
+    margin: 15px 0 0 25px;
+}
+.gao {
+    font-size: 12px;
+    color: #ff7c2d;
+}
+.people {
+    font-size: 12px;
+    color: #999999;
+}
+.bian {
+    overflow: hidden;
+}
+.thebian {
+    float: left;
+    margin-top: 35px;
+    font-size: 20px;
+    font-weight: 200;
+}
+.bian ul {
+    margin-left: 280px;
+}
+.bian li {
+    float: left;
+    margin-top: 40px;
+    margin-left: 75px;
+}
+.bian li a {
+    color: #999999;
+}
+.bian a:hover {
+    color: #00a4ff;
+}
+.bian>a {
+    float: right;
+    margin-top: 42px;
+    margin-right: 30px;
+    font-size: 12px;
+    color: #999999;
+}
+.boxtwo {
+    margin-top: 20px;
+    height: 392px;
+}
+.php {
+    float: left;
+    height: 392px;
+    width: 228px;
+    background-image: url(image/PHP.png);
+}
+.python {
+    float: right;
+    height: 100px;
+    width: 957px;
+    background-image: url(image/图层\ 155.png);
+}
+
+.enter li {
+    float: right;
+    margin-top: 25px;
+    width: 228px;
+    height: 270px;
+    margin-left: 15px;
+}
+.enter .lione {
+    background-image: url(image/图层\ 145.png);
+}
+.enter .litwo {
+    background-image: url(image/图层\ 144.png);
+}
+.enter .lithree {
+    background-image: url(image/图层\ 146.png);
+}
+.enter .lifour {
+    background-image: url(image/图层\ 143.png);
+}
+.enter a {
+    display: block;
+    margin: 180px 20px 0 25px;
+    font-size: 14px;
+    color: #050505;
+}
+.litwo .thetop,
+.lithree .thetop {
+    margin-top: 29px;
+}
+.ph {
+    float: left;
+    height: 392px;
+    width: 228px;
+    background-image: url(image/hp.png);
+}
+.py {
+    float: right;
+    height: 100px;
+    width: 957px;
+    background-image: url(image/py.png);
+}
+.end li {
+    float: left;
+    margin-top: 25px;
+    width: 228px;
+    height: 270px;
+    margin-left: 15px;
+}
+.end .lione {
+    margin-left: 0;
+}
+
+.end .lione {
+    background-image: url(image/图层\ 145.png);
+}
+
+.end .litwo {
+    background-image: url(image/图层\ 144.png);
+}
+
+.end .lithree {
+    background-image: url(image/图层\ 146.png);
+}
+
+.end .lifour {
+    background-image: url(image/图层\ 143.png);
+}
+.end .lifive {
+    background-image: url(image/图层\ 142.png);
+}
+.end a {
+    display: block;
+    margin: 180px 20px 0 25px;
+    font-size: 14px;
+    color: #050505;
+}
+
+.web .lifive {
+    margin-left: 0;
+}
+.web .lione {
+    margin-left: 15px;
+}
+.white .log {
+    margin-top: 15px;
+    width: 198px;
+    height: 42px;
+    background-image: url(image/学成在线.png);
+}
+.white {
+    margin-top: 35px;
+    height: 415px;
+    border-top: 1px solid white;
+    background-color: white;
+}
+.endleft {
+    float: left;
+}
+.endleft a { 
+    display: block;
+    height: 35px;
+    width: 120px;
+    color: #00a4ff;
+    text-align: center;
+    line-height: 35px;
+    border:2px solid #00a4ff;
+}
+.endleft p {
+    font-size: 12px;
+    color: #666666;
+}
+.endleft li{
+    margin: 20px 70px 0 20px;
+}
+.about {
+    margin-top: 10px;
+}
+.about  li{
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: 200;
+
+}
+.studied {
+    color: #7d7d7d;
+}
+.gather {
+    float: left;
+    margin-top: 20px;
+    margin-left: 145px;
+}
+/* .subject {
+    float: right;
+    width: 180px;
+    height: 425px;
+    background-color: white;
+}
+.subject li {
+    margin: 20px 0 0 25px;
+
+}
+.subject li a {
+    color: #000000;
+}
+.subject li a:hover {
+    color: #00a4ff;
+} */
